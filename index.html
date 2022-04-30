@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+        <i class='bx bxl-c-plus-plus'></i>
+        <span class="logo_name">PATIENT</span>
+      </div>
+    
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="links_name">Enquiries</span>
+          </a>
+        </li>
+        <li>
+            <a href="#" class="active">
+              <i class='bx bx-user' ></i>
+              <span class="links_name">Profile</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class='bx bx-coin-stack' ></i>
+              <span class="links_name">Payment</span>
+            </a>
+          </li>
+        
+      </ul>
+      <!-- <div class="side-help">
+          <h3>Need our help?</h3>
+          <button>Contact-Us</button>
+     </div> -->
+  </div>
+
+  <section class="home-section">
+    <nav>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+    </nav>
+     
+
+    <div class="home-content">
+        <h2 class="overview-boxes">My Patient Profile</h2>
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <img style="border-radius: 60px; height: 100px; width: 100px;" src="img/Img2.jpg" alt="img">
+            <div class="box-topic">Janathan <p>Smith<p></div>
+
+                <p class="status-active">Active</p>
+                <div class="contactinfo language">
+                    <span class="percent">
+                        <div style="width: 45%;"></div>
+                    </span>
+                    <span class="text">Storage:45%</span>
+                </div>
+
+          </div>
+          
+        </div>
+        
+        <div class="box">
+          <div class="right-side">
+            <img style="border-radius: 60px; height: 100px; width: 100px;" src="img/Img1.jpg" alt="img">
+            <div class="box-topic">Kate<p>Smith<p></div>
+                <p class="status-active">Active</p>
+
+                <div class="contactinfo language">
+                    <span class="percent">
+                        <div style="width: 81%;"></div>
+                    </span>
+                    <span class="text">Storage:81%%</span>
+                </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <img class="img"  src="img/OIP.jpg" alt="img">
+            <div class="box-topic">Alexandra <p>Smith<p></div>
+
+                <p class="status-Inactive">InActive</p>
+                <div class="contactinfo language">
+                    <span class="percent">
+                        <div style="width: 21%;"></div>
+                    </span>
+                    <span class="text">Storage:21%</span>
+                </div>
+          </div>
+        </div>
+
+        <div class="box" style="border: dotted;">
+          <div class="right-side">
+            <div class="Profile-Add">
+              <p>&#43;</p>
+            </div>
+            <div class="box-topic">Create New<p>Patient Profile</p></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <nav>
+        <div class="footer">
+            <p>Available Patient Profile <b>3 of 5</b> </p>
+
+            <div class="contactinfo language">
+                <span class="percent">
+                    <div style="width: 81%;"></div>
+                </span>
+            </div>
+        </div>
+        <div class="profile-details">
+          <span class="admin_name">Upgrade</span>
+        </div>
+      </nav>
+
+  </section>
+
+<!--   
+<script>
+   let sidebar = document.querySelector(".sidebar");
+   let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+
+</script> -->
+</body>
+</html>
+
